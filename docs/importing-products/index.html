@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="CV3">
+<meta name="description" content="Your ecommerce everything partner">
+<meta name="generator" content="Hugo 0.16" />
+<title>CommerceV3</title>
+<!-- Favicon -->
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- Bootstrap Core CSS -->
+<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="http://www.commercev3.com/font-awesome/css/font-awesome.min.css" type="text/css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="/css/design.css" type="text/css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+    </head>
+    <body id="page">
+
+        <!-- NAVIGATION -->
+
+<nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-left"><img src="/img/cv3-logo.png"></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+									
+                    
+							  			<li><a href="/">Home</a></li>
+                    
+									
+                    
+											<li class="dropdown">
+    										<a class="dropdown-toggle" data-toggle="dropdown" href="/tour/tour" role="button" aria-haspopup="true" aria-expanded="false">
+										 			Product Tour <span class="caret"></span>
+    										</a>
+    										<ul class="dropdown-menu">
+												
+							  					<li><a href="/tour/the-platform/">The Platform</a></li>
+												
+							  					<li><a href="/tour/features/">Features</a></li>
+												
+							  					<li><a href="/tour/store-design/">Store Design</a></li>
+												
+							  					<li><a href="/tour/cloud-hosting/">Cloud Hosting</a></li>
+												
+							  					<li><a href="/tour/integrations/">Integrations</a></li>
+												
+							  					<li><a href="/tour/marketing-services/">Marketing Services</a></li>
+												
+    										</ul>
+  										</li>
+                    
+									
+                    
+											<li class="dropdown">
+    										<a class="dropdown-toggle" data-toggle="dropdown" href="/services/growth-services" role="button" aria-haspopup="true" aria-expanded="false">
+										 			Services <span class="caret"></span>
+    										</a>
+    										<ul class="dropdown-menu">
+												
+							  					<li><a href="/services/growth-services/">Growth Services</a></li>
+												
+							  					<li><a href="/services/marketing/">Marketing</a></li>
+												
+							  					<li><a href="/services/partner-program/">Partner Program</a></li>
+												
+							  					<li><a href="/services/technical-services/">Technical Services</a></li>
+												
+    										</ul>
+  										</li>
+                    
+									
+                    
+											<li class="dropdown">
+    										<a class="dropdown-toggle" data-toggle="dropdown" href="/company/about-us" role="button" aria-haspopup="true" aria-expanded="false">
+										 			Company <span class="caret"></span>
+    										</a>
+    										<ul class="dropdown-menu">
+												
+							  					<li><a href="/our-company/about-us/">About Us</a></li>
+												
+							  					<li><a href="/our-company/partners/">Partners</a></li>
+												
+							  					<li><a href="/our-company/careers/">Careers</a></li>
+												
+							  					<li><a href="/our-company/contact-us/">Contact Us</a></li>
+												
+    										</ul>
+  										</li>
+                    
+									
+                    
+							  			<li><a href="/resources/">Resources</a></li>
+                    
+									
+                <li>
+                    <a class="page-scroll" target=".blank" href="https://store.commercev3.com">Merchant Login</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+
+      <!-- HEADER -->
+      <header>
+          <div class="header-content">
+              <div class="header-content-inner">
+                  <h1>Importing Products</h1>
+
+                  <p></p>
+              </div>
+          </div>
+      </header>
+
+      <section id="main">
+        <article id="content" class="container">
+           <p><h3>INTRODUCTION</h3>
+The CommerceV3 Product Import allows users to, in its most basic usage, import an entire inventory at store creation time and, in its most advanced usage, maintain inventory via a single spreadsheet that can be used to create and update products in the online store.
+<h3>OVERVIEW</h3>
+Uploaded import files are pipe- or tab-delimited files that contain product, sub-product and attribute data.  The file can include any of the possible fields in any order you would like.  The only limitations are that the SKU must be present for product lines, the SKU and ParentSKU must be present for sub-product lines and ParentSKU, IsAttribute and Attribute1 – Attribute* (* = the number of attributes you have for that product) must be present in attribute lines.  These fields are used as the keys when updating and linking your products. Other than that you can include as many of the fields as you would like to update.</p>
+
+<p>The first line of the import file is the header line.  In the header line you will define which fields you will be using.  Remember, they can be in any order you would like.  The remaining lines will contain product data with the information corresponding to the fields you defined in the header line.  The only limitation here is that sub-products and attributes need to fall below its parent product. See below for examples.
+<h3>AVAILABLE FIELDS</h3>
+<blockquote><pre>
+SKU                               | required in Product and Sub-Product lines
+ProdName
+ProdDescription
+Brand
+Manufacturer
+IsRetail                          | “TRUE”,”FALSE”  Note: IsRetail defaults to TRUE if RetailPrice is set
+RetailPrice*                      | Products can have multiple price categories.  * represents the value linking the
+RetailPriceCat*                   | price, price category and special price and should be incremental numbers.
+IsWholesale                       | “TRUE”,”FALSE” Note: IsWholesale defaults to TRUE if WholesalePrice is set
+WholesalePrice
+WholesaleQty
+ProdStatus                        | “In Stock”,”Out of Stock”,”Backordered”,”Discontinued”
+ProdInventory
+OutOfStockPoint
+ProdOnOrder
+AltID
+VendorID                          | the ID of the drop-shipper for the product
+DescriptionHeader
+ProductURLName                    | must be unique
+SpecialPrice*                     | * represents the value linking price, price category and special price
+IsSpecialOngoing                  | “TRUE”,”FALSE”
+SpecialStart                      | format: mm-dd-yyyy hh:mm
+SpecialEnd                        | format: mm-dd-yyyy hh:mm
+SpecialText
+BackorderedDate                   | format: mm-dd-yyyy
+IgnoreBackorder                   | “TRUE”,”FALSE”
+MinimumQuantity                   | <strong>Coming Soon</strong>
+MaximumQuantity                   | <strong>Coming Soon</strong>
+QuantityInSet                     | <strong>Coming Soon</strong>
+NumIterationsDisplayed            | <strong>Coming Soon</strong>
+DisplayWeight
+ActualWeight
+Unit                              | “none”,”each”,”tsps”,”tbs”,”cps”,”oz”,”pts”,”qts”,”ml”,”l”,”lbs”,”dz”,”pr”,”gal”,”sheet”
+ImageSetThumb*                    | Products can have multiple image sets.  * represents the value linking the thumbnail, large,
+ImageSetLarge*                    | and popup, type, and title for each image set. NOTE: This does NOT upload images.  These are
+ImageSetPopup*                    | links only. The images must already exist on an external server or in your store.
+ImageSetType*                     | “product” or “color_swatch”
+ImageSetTitle*                    |
+ImageSetEditType                  | “overwrite”,”append”  choose to overwrite current image sets or append to the end of the list.  The default is “overwrite”.
+IsInactive                        | “TRUE”,”FALSE”
+IsOutOfSeason                     | “TRUE”,”FALSE”
+IsTaxExempt                       | “TRUE”,”FALSE”
+HasTextField                      | “TRUE”,”FALSE”
+IsHidden                          | “TRUE”,”FALSE”
+IsFeatured                        | “TRUE”,”FALSE”
+IsNew                             | “TRUE”,”FALSE”
+IsGoogleCheckoutExempt            | “TRUE”,”FALSE”
+IsContentOnly                     | “TRUE”,”FALSE”
+IsInventoryExempt                 | “TRUE”,”FALSE”
+IsSubscription                    | “TRUE”,”FALSE”
+SubscriptionPrice
+HasElectronicDelivery             | “TRUE”,”FALSE”
+ElectronicDeliveryLink*           | products can have multiple electronic delivery documents
+ElectronicDeliveryDaysAvailable*  | * represents the value linking the Link, DaysAvailable and Description
+ElectronicDeliveryDescription*    |
+ElectronicDeliveryEditType    <strong>COMING SOON</strong>    | “append”,”overwrite”  choose to overwrite current electronic delivery links or append new ones.  The default is “append”.
+IsKit                             | “TRUE”,”FALSE”
+KitProductSKUs                    | comma separated list of SKUs
+ShipPreference                    | “tables”,”fixed”,”both
+FixedShipping
+ShipsInOwnBox                     | “TRUE”,”FALSE”
+PackageLength
+PackageWidth
+PackageHeight
+FreightClass
+IsGiftCertificate                 | “TRUE”,”FALSE
+GiftCertificateDaysAvailable
+GiftCertificateValue
+Rating
+Keywords
+MetaKeywords
+MetaTitle
+MetaDescription
+CategoryIDs                       | comma separated list of category IDs
+Custom1
+Custom2
+Custom3
+Custom4
+Custom5
+Custom6
+Custom7
+Custom8
+Custom9
+Custom10
+Custom11
+Custom12
+Template
+DependencySKUs                    | comma separated list of SKUs
+DependencyType                    | “AND”,”OR”
+AdditionalProdSKUs                | comma separated list of SKUs
+RelatedProdSKUs                   | comma separated list of SKUs
+GiftWrap                          | “TRUE”,”FALSE”
+GiftWrapName                      |
+GiftWrapSKU                       |
+GiftWrapAmount                    |
+CategoryFilter*                   | products can have multiple category filters and values
+CategoryFilterValue*              | * represents the value linking the filter with the value
+ParentSKU                         | required for sub-product and attribute lines
+SubProductAttributes              | comma separated list of attributes
+IsAttribute                       | “TRUE”,”FALSE”  – required for attribute lines
+AttributeTitle1                   | attribute titles are set in the parent product line
+AttributeTitle2
+AttributeTitle3
+AttributeTitle4
+AttributeSKU
+Attribute1                        |
+Attribute2                        | Required to update attribute
+Attribute3                        | information
+Attribute4                        |
+Attribute1Code                    |
+Attribute2Code                    |
+Attribute3Code                    |
+Attribute4Code                    |
+AttributePrice*                   | Attributes can have multiple price categories.  * represents the value linking the
+AttributePriceCat*                | price, price category and special price and should be incremental numbers.
+AttributeSpecialPrice*            | * represents the value linking price, price category and special price
+IsAttributeSpecialOngoing         | “TRUE”,”FALSE”
+AttributeSpecialStart             | format: mm-dd-yyyy hh:mm
+AttributeSpecialEnd               | format: mm-dd-yyyy hh:mm
+AttributeBackorderedDate          | Format: mm-dd-yyyy
+AttributeIgnoreBackorder          | “TRUE”,”FALSE”
+AttributeInventory
+AttributeOutOfStockPoint
+AttributeOnOrder
+IsAttributeInactive               | “TRUE”,”FALSE”        Note:this field will be ignored if AttributeStatus exists
+AttributeStatus                   | “active”, “inactive”, “deleted”, “discontinued”
+IsAttributeGiftCertificate        | “TRUE”,”FALSE”
+AttributeGiftCertificateDaysAvailable
+AttributeGiftCertificateValue
+IsAttributeSubscription           | “TRUE”,”FALSE”
+AttributeSubscriptionPrice</pre></blockquote>
+<h3>EXAMPLE IMPORT</h3>
+This is an example import file that includes all available fields as well as all product types.</p>
+
+<p><a href="http://commercev3.smackdabcentral.com/files/2009/07/example_import.tab">Download Example Import</a></p>
+
+<p>Here is a breakdown:
+<blockquote><pre>
+Line 1: Header Line
+Line 2: Regular Product (no sub-products or attributes)
+Line 3: Product Containing Sub-Products
+Line 4: Sub-Product 1 for Product in Line 3
+Line 5: Sub-Product 2 for Product in Line 3
+Line 6: Sub-Product 3 for Product in Line 3
+Line 7: Products Containing Attributes
+Line 8: Attribute 1 for Product in Line 7
+Line 9: Attribute 2 for Product in Line 7
+Line 10: Attribute 3 for Product in Line 7
+Line 11: Product with Electronic Delivery
+</pre></blockquote>
+<h3>EXAMPLE INVENTORY ONLY IMPORT</h3>
+This is an example import file that only updates inventory counts for the products in above example.</p>
+
+<p><a href="http://commercev3.smackdabcentral.com/files/2009/07/example_inventory_only_import.tab">Download Inventory Only Example Import</a></p>
+
+        </article>
+      </section>
+
+        <footer>
+
+  <div class="row">
+    <div class="col-md-4">
+      <h2>Platform Status</h2>
+      <p>
+        <script type="text/javascript"
+            src="https://sdk.librato.com/librato-sdk-v0.5.1-min.js"
+            data-librato_email="librato-api@commercev3.com"
+            data-librato_token="d8bce4c119404dac096971fa932ec9829230c8db4e07f176900000bac0eea1e7">
+          </script><div class="librato-metrics" data-credits="false" data-instrument_id="30886733" style="height:200px; width:300px;" data-duration="21600"></div>
+
+        <a href="../resources/status/">Click Here</a> to visit the Status Page.
+      </p>
+
+    </div>
+
+    <div class="col-md-4">
+      <h2>Links</h2>
+      <ul>
+        <li><a href="/tour/the-platform/">Product Tour</a></li>
+        <li><a href="/our-company/partners">Partners</a></li>
+        <li><a href="https://store.commercev3.com/">Merchant Login</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md-4">
+      <h2>Contact Us</h2>
+      <address>
+      13045 MOUNTAIN TRAIL<br />
+      CLERMONT, FL 34715<br />
+      PHONE: (888) 544-2211<br />
+      FAX: (866) 562-9492
+      </address>
+
+    </div>
+
+  </div>
+
+</footer>
+
+        <!-- jQuery -->
+<script src="http://www.commercev3.com/js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="http://www.commercev3.com/js/bootstrap.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="http://www.commercev3.com/js/jquery.easing.min.js"></script>
+<script src="http://www.commercev3.com/js/jquery.fittext.js"></script>
+<script src="http://www.commercev3.com/js/wow.min.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="http://www.commercev3.com/js/creative.js"></script>
+
+    </body>
+</html>

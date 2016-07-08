@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on CommerceV3</title>
+    <link>http://www.commercev3.com/docs/</link>
+    <description>Recent content in Docs on CommerceV3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Feb 2016 16:11:58 +0530</lastBuildDate>
+    <atom:link href="http://www.commercev3.com/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CV3 Templates Quick Start</title>
+      <link>http://www.commercev3.com/docs/cv3-templates-quick-start/</link>
+      <pubDate>Sun, 14 Feb 2016 16:11:58 +0530</pubDate>
+      
+      <guid>http://www.commercev3.com/docs/cv3-templates-quick-start/</guid>
+      <description>&lt;p&gt;Creating a new store in CV3 is easy. Just click “Create Store” in the left nav, give your store a name and leave the default choices in place (two-column layout, include sample data). Click the “Add Store” button at the bottom of the form.&lt;/p&gt;
+
+&lt;p&gt;Congratulations! You have a fully functional e-commerce storefront. Just click on your new store’s name to visit it’s dashboard, then click the “Staging” link just to the right of the CV3 logo at the top of the page. A new window (or tab) will open up and you can shop in your store.&lt;/p&gt;
+
+&lt;p&gt;You’ve got everything: site search, category listings, newsletter sign-up, product pages, shopping cart… even a member section. There’s just one problem. It doesn’t match your brand.&lt;/p&gt;
+
+&lt;p&gt;In fact, it’s a bit gray and down right ugly.&lt;/p&gt;
+
+&lt;p&gt;The default templates may not be much to look at, but they’re the perfect foundation for learning about CV3. They include more sample code than you’ll ever need to look at, because it’s rare that a store implements all the features in the default template set. In fact, you may start deleting more things than you add, but that’s okay… deleting is easier.&lt;/p&gt;
+
+&lt;p&gt;So let’s start getting our hands dirty and get this store ready for customers.
+&lt;h3&gt;STYLING WITH CSS&lt;/h3&gt;
+Editing your Cascading Style Sheets (CSS) is the fastest way to start styling your store. If you’re not familiar with CSS, you can Google for tutorials or check out the &lt;a href=&#34;http://www.csszengarden.com/&#34;&gt;CSS Zen Garden&lt;/a&gt; to see how just working with style sheets can radically change the look of a site.&lt;/p&gt;
+
+&lt;p&gt;CV3 offers direct access to all the styles that make up your store. Open up the Design section in the left navigation (click on the blue “pillbox” named Design), then click on Template Library.&lt;/p&gt;
+
+&lt;p&gt;The templates in your library are grouped together by type, and the first group is called CSS Stylesheets. Click on this name or the plus sign to open up the group, then click on styles.css or the edit button to the right of it.&lt;/p&gt;
+
+&lt;p&gt;There’s your CSS! You can make any changes you want, or you can copy/paste additional styles from external editors. You can click the Save button at the top or bottom of the page to save your progress, and click Save and Quitwhen you’re done and want to return to the main page for your Template Library.&lt;/p&gt;
+
+&lt;p&gt;Here are a few tips for working with your CSS:
+&lt;ul&gt;
+    &lt;li&gt;Copy/paste new code at the bottom of the stylesheet to override default styles. This is a great way to “tweak” your CSS and keep all your custom code in one place. Just keep in mind that as you progress you may eventually want to go back through and merge styles together for ease of maintenence.&lt;/li&gt;
+    &lt;li&gt;Grab a copy of &lt;a href=&#34;http://www.mozilla.com/&#34;&gt;Mozilla Firefox&lt;/a&gt; if you don’t already have one and use the &lt;a href=&#34;http://getfirebug.com/&#34;&gt;Firebug&lt;/a&gt;extension to examine your staging site in detail so you can pick and choose the right styles to work on. During extensive coding sessions I like to have my CV3 admin open in one tab and my staging site open in another, with the Firebug panel expanded on my staging site. I can pop back and forth and easily review my changes quickly.&lt;/li&gt;
+    &lt;li&gt;Keep your CSS here or in other stylesheets (next section) and out of your HTML. Using inline styles in your HTML will cause lots of problems down the road when you open up your CSS file to make changes and not all of them work anymore.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;UPLOADING ADDITIONAL CSS FILES&lt;/h3&gt;
+Most sites like the simplicity and convenience of having one stylesheet – it keeps everything together in one place. But sometimes you need to include more than one, or you may be working with a &lt;a href=&#34;http://en.wikipedia.org/wiki/CSS_framework&#34;&gt;stylesheet framework&lt;/a&gt; so you need multiple files. Here’s how you do it.&lt;/p&gt;
+
+&lt;p&gt;First you upload the CSS. In the CV3 left navigation click on File Library under the Design section and then click the Upload File link at the top of the page. Click the Browse button to find the CSS file on your harddrive and then click Upload.&lt;/p&gt;
+
+&lt;p&gt;Second, you’ll need to link to your new stylesheet. Return to your Template Library and expand the Site Design Templates group, which should be the third group in the library. Scroll through the list and find the template called “Meta Tag Information (_meta.tpl)” and click on the name or the edit button to the right of it.&lt;/p&gt;
+
+&lt;p&gt;Dig through this file to find this line:
+&lt;blockquote&gt;&amp;lt;link rel=”stylesheet” type=”text/css” href=”{#stylesheet#}”&amp;gt;&lt;/blockquote&gt;
+Add a link to the spreadsheet you just uploaded right above this line:
+&lt;blockquote&gt;&amp;lt;link rel=”stylesheet” type=”text/css” href=”/downloads/blueprint_screen.css”&amp;gt;
+&amp;lt;link rel=”stylesheet” type=”text/css” href=”{#stylesheet#}”&amp;gt;&lt;/blockquote&gt;
+Make sure you change the name of the css file to the name of the file you uploaded. You can do this with multiple stylesheets, and you may wind up with something like this:
+&lt;blockquote&gt;&amp;lt;link rel=”stylesheet” type=”text/css” href=”/downloads/blueprint_screen.css”&amp;gt;
+&amp;lt;link rel=”stylesheet” type=”text/css” href=”/downloads/blueprint_fancy-type_screen.css”&amp;gt;
+&amp;lt;link rel=”stylesheet” type=”text/css” href=”{#stylesheet#}”&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;{* IE online styles *}
+&amp;lt;!–[if IE]&amp;gt;
+&amp;lt;link rel=”stylesheet” type=”text/css” href=”/downloads/blueprint_ie.css”&amp;gt;
+&amp;lt;![endif]–&amp;gt;&lt;/blockquote&gt;
+Now don’t take all this as a suggestion to use stylesheet frameworks. Most likely there are better ways to implement your design. But it does illustrate how to include multiple stylesheets and browser-specific stylesheets.&lt;/p&gt;
+
+&lt;p&gt;So during that process you probably saw a coule of things that scared you. First you saw tons of templates with strange names. Then you opened up a template and saw tons of strange code that didn’t look quite like HTML.&lt;/p&gt;
+
+&lt;p&gt;Relax. It’s not so bad. And when your boss is asking you for more whitespace around the new home page promo, you’re going to be glad you have this kind of access to your templates :)&lt;/p&gt;
+
+&lt;p&gt;So let’s overcome the first fear.
+&lt;h3&gt;DECONSTRUCTING CV3 TEMPLATES&lt;/h3&gt;
+The pages on your CV3 store are built by assembling all of these templates together. Depending on the page you’re on, it may use one, two, twelve or twenty of these templates to assemble the page the user sees. This is going to get technical, so stay with me.&lt;/p&gt;
+
+&lt;p&gt;The default template set does this because we’ve factored out the code that is used over and over again into component files that can be included where ever they are needed. Some people refer to this technique as DRY – Don’t Repeat Yourself.&lt;/p&gt;
+
+&lt;p&gt;A good example is the _meta.tpl template we looked at earlier. As you can guess from the name and the fact that you include stylesheets in it, this file creates the part of the page between the &amp;lt;head&amp;gt; tags, most people call it the header information or the meta information.&lt;/p&gt;
+
+&lt;p&gt;This stuff is included on every page of your site. So we seperated the code into this small, convenient template. When you want to change the way your meta information works, you change it here and it updates on every page of your site.&lt;/p&gt;
+
+&lt;p&gt;Want to change the way the shop-by-price search looks? It’s in the left column of your default storefront. Just edit “shopbyprice_menu.tpl”. This file only has 15 lines, because all it does is control the display of one small piece of your page.&lt;/p&gt;
+
+&lt;p&gt;Once you’re familiar with CV3 Templates, you’ll find yourself searching for a specific template and making a quick change easily, without worrying about accidentally affecting other areas of your site, or forgetting to update something in all the places it appears.
+&lt;h3&gt;TEMPLATES INSIDE TEMPLATES&lt;/h3&gt;
+Since templates can include other templates, and those can include even more templates, it can be frustrating to find the exact template you want to change. So let’s make a change to the home page to illustrate how you can easily find the template you need.&lt;/p&gt;
+
+&lt;p&gt;Let’s say you want to make a change to the Shop By Price area on the left of the home page, but you have no idea what that template is called or what group it’s in.&lt;/p&gt;
+
+&lt;p&gt;On the main page of your template library click Expand All at the top of the page. This will open up all the template groups and show every single template file on your site. Use the Find command in your browser to search for the text “home” or “index”… you’ll quickly find the index.tpl file under the Catalog Display group. Open it up.&lt;/p&gt;
+
+&lt;p&gt;You can probably read the source code and tell what files it includes, but there’s an easier way. At the top of the page there’s a link called “Edit pages this template includes”. Click this link and you’ll see all the “sub-templates” that this template uses. You can click on each one, but at first glance we can probably assume that the stuff in the left navigation is in “_top.tpl”, since in web design left navigation is usually created before the main area of the page, and by process of elimination (two of those templates are promos and the last is the bottom of the page).&lt;/p&gt;
+
+&lt;p&gt;So click on “_top.tpl” and the page reloads with that template. Again we could look at the source code, but let’s stick with our template navigation at the top of the page. Now we have two links, “Edit pages calling this template” and “Edit pages this template includes”. This will take some getting used to, but these links are sort of like “up” and “down” links, moving you through the template heiarchy.&lt;/p&gt;
+
+&lt;p&gt;“Edit pages calling this template” will show you “parent” templates, and in this case there are a lot, but the “index.tpl” file we just came from is included in the list, so we can move back “up” to that template if we want.&lt;/p&gt;
+
+&lt;p&gt;“Edit pages this template includes” takes us further “down” the chain, helping us drill down to a specific point on a page. In our case, this is what we want to do, so click this link to expand this section. We see three files and an obvious choice for our next jump – “left_nav.tpl”. We know from viewing our staging site that that’s exactly where we want to make our change.&lt;/p&gt;
+
+&lt;p&gt;So clicking on “left_nav.tpl” takes us to another short snippet of code that displays the left navigation. If we want to reorder the way things appear in the left nav, we’d do it here. But we want to actually change something more specific, so let’s again click on “Edit pages this template includes” and we see what we want: shopbyprice_menu.tpl. Go ahead and click on it.&lt;/p&gt;
+
+&lt;p&gt;Change the text “SHOP BY PRICE” to “Price Shopping” and click Save. Refresh your staging site (it is open in another tab by now, right? If not click Staging in the top bar to the right of the CV3 logo). You should see your change immediately. If not, check to make sure your browser is not caching web pages locally.&lt;/p&gt;
+
+&lt;p&gt;All looks good, so click Save and Quit. Whew! A familiar site, the main page of a template library!&lt;/p&gt;
+
+&lt;p&gt;Navigating up and down the template hierarchy in this manner is a great way to explore the CV3 template system and discover how things work. As you get more and more familiar with things you’ll start moving to your file directly. And when you’re a master, you’ll create your own template groups, move the files into the groups you want and establish your own system.&lt;/p&gt;
+
+&lt;p&gt;So before we go, we need to tackle that other fear… the strange code inside those templates that doesn’t quite look like PHP or HTML.
+&lt;h3&gt;LOOPS, VARIABLES AND THE REST OF THE SMART(Y) STUFF&lt;/h3&gt;
+We’ve edited CSS and HTML, but what if we want to change something more dynamic. What if we want to adjust the way a product title is displayed, or the way a category page loops through all the products it contains? In these cases, we can’t just edit the HTML because CV3 is pulling stuff out of your database and displaying it dynamically.&lt;/p&gt;
+
+&lt;p&gt;To do this sort of thing you need to work with a language called Smarty. Smarty is an open-source templating language based on PHP, and it has it’s own &lt;a href=&#34;http://smarty.net/&#34;&gt;website&lt;/a&gt; with tons of information and a great &lt;a href=&#34;http://smarty.net/crashcourse.php&#34;&gt;quick start&lt;/a&gt; of it’s own. But here’s the quick scoop.&lt;/p&gt;
+
+&lt;p&gt;CV3 templates (.tpl files) are just Smarty templates. When reviewing the Smarty documentation, you don’t have to worry about the PHP stuff, we take care of that for you. All you have to worry about is the .tpl stuff.&lt;/p&gt;
+
+&lt;p&gt;Here are a few examples of how you use Smarty with CV3:&lt;/p&gt;
+
+&lt;p&gt;To display a product name:
+&lt;blockquote&gt;{$product.prod_name}&lt;/blockquote&gt;
+To capitalize that product name automatically:
+&lt;blockquote&gt;{$product.prod_name|capitalize}&lt;/blockquote&gt;
+To call another template file in a template:
+&lt;blockquote&gt;{include file=”category_sort.tpl}&lt;/blockquote&gt;
+The Smarty documentation covers a lot more. My suggestion is to read the crash course and the come back to CV3 and start looking at product and category templates to start to see how Smarty is used. The CV3 templates can get complex, usually because they look for default values for things if there are no custom values for them, but just scan them and the variables and loops you need will start to jump out at you, and you can ignore the rest.&lt;/p&gt;
+
+&lt;p&gt;Once you start really digging into CV3’s Smarty implementation, you’re going to wonder about what data structures are available to you in each template. You can figure out the basics by reviewing the default templates and how they call a product title, or how a featured product rotation is coded on the store’s home page. But when you’re rolling, it’s better to just see a list of everything you have at your disposal. That’s when you need the following command:
+&lt;blockquote&gt;{array_debug}&lt;/blockquote&gt;
+This command can be placed anywhere, in any template, and it will show you all the variables and arrays available to you. Try putting it at the top of your home page. It will print a link: “Debug All” and when you click this link a panel will open showing you all your data structures.&lt;/p&gt;
+
+&lt;p&gt;A better way to use array_debug is to give it a specific array or variable to print. It keeps the output smaller and shows you just what you want to see. Here are some examples:&lt;/p&gt;
+
+&lt;p&gt;Assigning a variable and immediately printing it to the screen:
+&lt;blockquote&gt;{assign var=”subCats” value=$categories.$cid.sub_cats}
+{array_debug var=”subCats”}&lt;/blockquote&gt;
+Displaying an array:
+&lt;blockquote&gt;{array_debug var=$products}
+{array_debug var=”products”}&lt;/p&gt;
+
+&lt;p&gt;{array_debug var=$categories.$cid.sub_cats}&lt;/blockquote&gt;
+Don’t worry if you don’t get this to start with… it’s complicated, magical stuff. But it gives you unprecidented power over the way your site not only looks but how it actually works. Using array_debug isn’t going to break anything, just give it a whirl and you’ll start to learn exactly how you want to use it.
+&lt;h3&gt;CONCLUSION&lt;/h3&gt;
+With great power come great responsibility. The CV3 template system let’s you change anything (literally anything) on your site, so they can be daunting. Designers who launch multiple stores will get faster over time, and learn all kinds of things that will help produce stores faster. And once you create one store, you can use it as your starting template for your second store. In fact, some CV3 users create a special template set that isn’t used in a live store but instead provides a “base” to start from when creating new stores, a base they like better than our default template set.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Importing Products</title>
+      <link>http://www.commercev3.com/docs/importing-products/</link>
+      <pubDate>Sun, 14 Feb 2016 16:11:58 +0530</pubDate>
+      
+      <guid>http://www.commercev3.com/docs/importing-products/</guid>
+      <description>&lt;p&gt;&lt;h3&gt;INTRODUCTION&lt;/h3&gt;
+The CommerceV3 Product Import allows users to, in its most basic usage, import an entire inventory at store creation time and, in its most advanced usage, maintain inventory via a single spreadsheet that can be used to create and update products in the online store.
+&lt;h3&gt;OVERVIEW&lt;/h3&gt;
+Uploaded import files are pipe- or tab-delimited files that contain product, sub-product and attribute data.  The file can include any of the possible fields in any order you would like.  The only limitations are that the SKU must be present for product lines, the SKU and ParentSKU must be present for sub-product lines and ParentSKU, IsAttribute and Attribute1 – Attribute* (* = the number of attributes you have for that product) must be present in attribute lines.  These fields are used as the keys when updating and linking your products. Other than that you can include as many of the fields as you would like to update.&lt;/p&gt;
+
+&lt;p&gt;The first line of the import file is the header line.  In the header line you will define which fields you will be using.  Remember, they can be in any order you would like.  The remaining lines will contain product data with the information corresponding to the fields you defined in the header line.  The only limitation here is that sub-products and attributes need to fall below its parent product. See below for examples.
+&lt;h3&gt;AVAILABLE FIELDS&lt;/h3&gt;
+&lt;blockquote&gt;&lt;pre&gt;
+SKU                               | required in Product and Sub-Product lines
+ProdName
+ProdDescription
+Brand
+Manufacturer
+IsRetail                          | “TRUE”,”FALSE”  Note: IsRetail defaults to TRUE if RetailPrice is set
+RetailPrice*                      | Products can have multiple price categories.  * represents the value linking the
+RetailPriceCat*                   | price, price category and special price and should be incremental numbers.
+IsWholesale                       | “TRUE”,”FALSE” Note: IsWholesale defaults to TRUE if WholesalePrice is set
+WholesalePrice
+WholesaleQty
+ProdStatus                        | “In Stock”,”Out of Stock”,”Backordered”,”Discontinued”
+ProdInventory
+OutOfStockPoint
+ProdOnOrder
+AltID
+VendorID                          | the ID of the drop-shipper for the product
+DescriptionHeader
+ProductURLName                    | must be unique
+SpecialPrice*                     | * represents the value linking price, price category and special price
+IsSpecialOngoing                  | “TRUE”,”FALSE”
+SpecialStart                      | format: mm-dd-yyyy hh:mm
+SpecialEnd                        | format: mm-dd-yyyy hh:mm
+SpecialText
+BackorderedDate                   | format: mm-dd-yyyy
+IgnoreBackorder                   | “TRUE”,”FALSE”
+MinimumQuantity                   | &lt;strong&gt;Coming Soon&lt;/strong&gt;
+MaximumQuantity                   | &lt;strong&gt;Coming Soon&lt;/strong&gt;
+QuantityInSet                     | &lt;strong&gt;Coming Soon&lt;/strong&gt;
+NumIterationsDisplayed            | &lt;strong&gt;Coming Soon&lt;/strong&gt;
+DisplayWeight
+ActualWeight
+Unit                              | “none”,”each”,”tsps”,”tbs”,”cps”,”oz”,”pts”,”qts”,”ml”,”l”,”lbs”,”dz”,”pr”,”gal”,”sheet”
+ImageSetThumb*                    | Products can have multiple image sets.  * represents the value linking the thumbnail, large,
+ImageSetLarge*                    | and popup, type, and title for each image set. NOTE: This does NOT upload images.  These are
+ImageSetPopup*                    | links only. The images must already exist on an external server or in your store.
+ImageSetType*                     | “product” or “color_swatch”
+ImageSetTitle*                    |
+ImageSetEditType                  | “overwrite”,”append”  choose to overwrite current image sets or append to the end of the list.  The default is “overwrite”.
+IsInactive                        | “TRUE”,”FALSE”
+IsOutOfSeason                     | “TRUE”,”FALSE”
+IsTaxExempt                       | “TRUE”,”FALSE”
+HasTextField                      | “TRUE”,”FALSE”
+IsHidden                          | “TRUE”,”FALSE”
+IsFeatured                        | “TRUE”,”FALSE”
+IsNew                             | “TRUE”,”FALSE”
+IsGoogleCheckoutExempt            | “TRUE”,”FALSE”
+IsContentOnly                     | “TRUE”,”FALSE”
+IsInventoryExempt                 | “TRUE”,”FALSE”
+IsSubscription                    | “TRUE”,”FALSE”
+SubscriptionPrice
+HasElectronicDelivery             | “TRUE”,”FALSE”
+ElectronicDeliveryLink*           | products can have multiple electronic delivery documents
+ElectronicDeliveryDaysAvailable*  | * represents the value linking the Link, DaysAvailable and Description
+ElectronicDeliveryDescription*    |
+ElectronicDeliveryEditType    &lt;strong&gt;COMING SOON&lt;/strong&gt;    | “append”,”overwrite”  choose to overwrite current electronic delivery links or append new ones.  The default is “append”.
+IsKit                             | “TRUE”,”FALSE”
+KitProductSKUs                    | comma separated list of SKUs
+ShipPreference                    | “tables”,”fixed”,”both
+FixedShipping
+ShipsInOwnBox                     | “TRUE”,”FALSE”
+PackageLength
+PackageWidth
+PackageHeight
+FreightClass
+IsGiftCertificate                 | “TRUE”,”FALSE
+GiftCertificateDaysAvailable
+GiftCertificateValue
+Rating
+Keywords
+MetaKeywords
+MetaTitle
+MetaDescription
+CategoryIDs                       | comma separated list of category IDs
+Custom1
+Custom2
+Custom3
+Custom4
+Custom5
+Custom6
+Custom7
+Custom8
+Custom9
+Custom10
+Custom11
+Custom12
+Template
+DependencySKUs                    | comma separated list of SKUs
+DependencyType                    | “AND”,”OR”
+AdditionalProdSKUs                | comma separated list of SKUs
+RelatedProdSKUs                   | comma separated list of SKUs
+GiftWrap                          | “TRUE”,”FALSE”
+GiftWrapName                      |
+GiftWrapSKU                       |
+GiftWrapAmount                    |
+CategoryFilter*                   | products can have multiple category filters and values
+CategoryFilterValue*              | * represents the value linking the filter with the value
+ParentSKU                         | required for sub-product and attribute lines
+SubProductAttributes              | comma separated list of attributes
+IsAttribute                       | “TRUE”,”FALSE”  – required for attribute lines
+AttributeTitle1                   | attribute titles are set in the parent product line
+AttributeTitle2
+AttributeTitle3
+AttributeTitle4
+AttributeSKU
+Attribute1                        |
+Attribute2                        | Required to update attribute
+Attribute3                        | information
+Attribute4                        |
+Attribute1Code                    |
+Attribute2Code                    |
+Attribute3Code                    |
+Attribute4Code                    |
+AttributePrice*                   | Attributes can have multiple price categories.  * represents the value linking the
+AttributePriceCat*                | price, price category and special price and should be incremental numbers.
+AttributeSpecialPrice*            | * represents the value linking price, price category and special price
+IsAttributeSpecialOngoing         | “TRUE”,”FALSE”
+AttributeSpecialStart             | format: mm-dd-yyyy hh:mm
+AttributeSpecialEnd               | format: mm-dd-yyyy hh:mm
+AttributeBackorderedDate          | Format: mm-dd-yyyy
+AttributeIgnoreBackorder          | “TRUE”,”FALSE”
+AttributeInventory
+AttributeOutOfStockPoint
+AttributeOnOrder
+IsAttributeInactive               | “TRUE”,”FALSE”        Note:this field will be ignored if AttributeStatus exists
+AttributeStatus                   | “active”, “inactive”, “deleted”, “discontinued”
+IsAttributeGiftCertificate        | “TRUE”,”FALSE”
+AttributeGiftCertificateDaysAvailable
+AttributeGiftCertificateValue
+IsAttributeSubscription           | “TRUE”,”FALSE”
+AttributeSubscriptionPrice&lt;/pre&gt;&lt;/blockquote&gt;
+&lt;h3&gt;EXAMPLE IMPORT&lt;/h3&gt;
+This is an example import file that includes all available fields as well as all product types.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://commercev3.smackdabcentral.com/files/2009/07/example_import.tab&#34;&gt;Download Example Import&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is a breakdown:
+&lt;blockquote&gt;&lt;pre&gt;
+Line 1: Header Line
+Line 2: Regular Product (no sub-products or attributes)
+Line 3: Product Containing Sub-Products
+Line 4: Sub-Product 1 for Product in Line 3
+Line 5: Sub-Product 2 for Product in Line 3
+Line 6: Sub-Product 3 for Product in Line 3
+Line 7: Products Containing Attributes
+Line 8: Attribute 1 for Product in Line 7
+Line 9: Attribute 2 for Product in Line 7
+Line 10: Attribute 3 for Product in Line 7
+Line 11: Product with Electronic Delivery
+&lt;/pre&gt;&lt;/blockquote&gt;
+&lt;h3&gt;EXAMPLE INVENTORY ONLY IMPORT&lt;/h3&gt;
+This is an example import file that only updates inventory counts for the products in above example.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://commercev3.smackdabcentral.com/files/2009/07/example_inventory_only_import.tab&#34;&gt;Download Inventory Only Example Import&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Merchant Manual</title>
+      <link>http://www.commercev3.com/docs/merchant-manual/</link>
+      <pubDate>Sun, 14 Feb 2016 16:11:58 +0530</pubDate>
+      
+      <guid>http://www.commercev3.com/docs/merchant-manual/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.google.com/document/d/1IPG2x7JqxXAu7RCmR2Cwf-WOTs4qrc8m0TAmp6ibp0I/edit&#34;&gt;Intro to the New Admin UI&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://docs.google.com/document/d/100epWNdi4F6lol1uLsQFb7JD0whdVkoXLCE65mJPomA/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Old Admin UI to New Admin UI Conversion Path&lt;/a&gt;
+&lt;h2&gt;&lt;strong&gt;Dashboard&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1HRDOU2PYpAU6OC7QBlFA5B7aXx--JMqRMEYkTcAYeC0/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;General Options New UI 2015&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Orders&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1MG6xO6x9NJH01wwMzciVJpYaHJecLzcCmq_1kwQCOaA/edit&#34; target=&#34;_blank&#34;&gt;Orders&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1gAUbRB-FmlKbgUl-CJgVuA9y8qwpyLRElsbkQSHi0aI/edit&#34; target=&#34;_blank&#34;&gt;Gift Certificates&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1QuEtTSmx-bSOI4Y0lh5X1pBzHGIWfOAbjgPgEeRPuMY/edit&#34; target=&#34;_blank&#34;&gt;Catalog Requests&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1ioYdzJRuIt-xM4vyPan9cLHOxAr8MTj5Sh0s8ZjGxrU/edit&#34; target=&#34;_blank&#34;&gt;Customers&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1okzOlWG7t8IkvFCm4RbVidbJ8xHLQ68kuq3TXzPQS-M/edit&#34; target=&#34;_blank&#34;&gt;Wholesale&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1n4tZthdJpWXdvz5wERaR7QQZctMeb9p7lRRz8Ke9HcU/edit&#34; target=&#34;_blank&#34;&gt;Shipping Options&lt;/a&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1B_mw33ljfmNpCeF2emFtMjk5utq14aMnW1x1toDpFKU/edit&#34; target=&#34;_blank&#34;&gt;Core Options&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1n4tZthdJpWXdvz5wERaR7QQZctMeb9p7lRRz8Ke9HcU/edit&#34; target=&#34;_blank&#34;&gt;Shipping Tables&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1BJcQL4tebrgKHpxmG7oWZXB6WA8zha-kgW6v3zS0HKE/edit&#34; target=&#34;_blank&#34;&gt;Shipping Groups&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1zeBet9PK-t-nWoopOoDZ2Pec-su1hZ2RWckl8u22Hxo/edit&#34; target=&#34;_blank&#34;&gt;Preset Ship Dates&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1x5Dqvi4210jq0cj00v-kF1hs-_-181Z0vrQpNr22Ukw/edit&#34; target=&#34;_blank&#34;&gt;Blackout Dates&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1o6OXS6V7OhmgCIZuUbmsL_Y4w60AuuTQmHbNa4OhQLA/edit&#34; target=&#34;_blank&#34;&gt;Dimensional Shipping&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1sOmJtczDmNb6IQ3ztL5jT1RzgyB5WHR6rnL9cjG3GpQ/edit&#34; target=&#34;_blank&#34;&gt;Shipping Calculations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/17vKKg9enGfqdamiY90D5XfSihaI3G96WuXTblaSIhz8/edit&#34; target=&#34;_blank&#34;&gt;Tax Options&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1XczNvv6arSKC7I8iTT3Do6eaOVcO5wnRto-ajo7l7XY/edit&#34; target=&#34;_blank&#34;&gt;Payment Options&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1nt3rbu_-tErfjYOGUk93WW1OQwpxmn5cZMOg0JT_V9U/edit&#34; target=&#34;_blank&#34;&gt;Fulfillment Options&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Content&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1kM0ZfbVWqxnVIA8tdwTNuVdbceCEHDrmU3Yki_bQSoo/edit&#34; target=&#34;_blank&#34;&gt;Products&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/13L7-cvdfjz-ZnBbVENeY4GCSB7KJ4VKfPC_fiPOCy6U/edit&#34; target=&#34;_blank&#34;&gt;Categories&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1m7ZtR1ZSrH2MLdyul8_OCCRddIOwc4lph9Z9JQFVkPo/edit&#34; target=&#34;_blank&#34;&gt;Design&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1K-LXdVe8wwpWLkKBnWmUEzYJ5bOfjd97qECNiu9zfpc/edit&#34;&gt;Site Settings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Marketing&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/12gzVSXPBEz3-OLEDGRlZWiCIf-ugUzldCoQggW5j8W0/edit&#34; target=&#34;_blank&#34;&gt;Optimization&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1fXSpgM-mZTEi22aDLJjchpqfHkw4flgy-ZeOmxJQB2Q/edit&#34; target=&#34;_blank&#34;&gt;Email Tools&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1t_nKaXwOwJxEAjrQgbYVJCJw0WvHF72Q1KcW8eLtkBU/edit&#34; target=&#34;_blank&#34;&gt;Automatic Reminders&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1eD7NjXwIWkLChP2pioDF4C54Lf2SCONgjkIMY8xiL1o/edit&#34; target=&#34;_blank&#34;&gt;Product Syndication&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1_eOFCgYoKTZ_VxiFbQdEGik5LnyC_1rwbf8CydGtqDY/edit&#34; target=&#34;_blank&#34;&gt;Cart Abandonment&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Analytics&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt; &lt;a href=&#34;https://docs.google.com/document/d/1bqvC2h2BGiEYzUmuMQcHVQGQRwjLU_2gEbXrHrl1AYY/edit#&#34; target=&#34;_blank&#34;&gt;Analytics and Reporting Options&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Training Videos</title>
+      <link>http://www.commercev3.com/docs/training-videos/</link>
+      <pubDate>Sun, 14 Feb 2016 16:11:58 +0530</pubDate>
+      
+      <guid>http://www.commercev3.com/docs/training-videos/</guid>
+      <description>&lt;p&gt;&lt;h2&gt;Dashboard&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/139932042&#34; target=&#34;_blank&#34;&gt;General Options and Security Options&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Orders&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;Orders&lt;/li&gt;
+    &lt;li&gt;Gift Certificates
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/141200959&#34; target=&#34;_blank&#34;&gt;Gift Certificate Creation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+    &lt;li&gt;Catalog Request&lt;/li&gt;
+    &lt;li&gt; Customers
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/141914119&#34; target=&#34;_blank&#34;&gt;Customer Group and Rule Creation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+    &lt;li&gt;Wholesale&lt;/li&gt;
+    &lt;li&gt;Shipping Options
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/140321221&#34; target=&#34;_blank&#34;&gt;Core Options&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/140321221&#34; target=&#34;_blank&#34;&gt;Shipping Tables&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/140935981&#34; target=&#34;_blank&#34;&gt;Shipping Groups&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+    &lt;li&gt;Tax Options
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/141421280&#34; target=&#34;_blank&#34;&gt;Tax Core Options&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/141421280&#34; target=&#34;_blank&#34;&gt;Tax Tables&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+    &lt;li&gt;Payment Options&lt;/li&gt;
+    &lt;li&gt;Fulfillment Options&lt;strong&gt;
+&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Content&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;Products
+&lt;ul&gt;
+    &lt;li&gt;All Products
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/138092744&#34; target=&#34;_blank&#34;&gt;Attribute Product Creation&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/137834588&#34; target=&#34;_blank&#34;&gt;Basic Product Creation&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/137956396&#34; target=&#34;_blank&#34;&gt;Content Only Product Creation&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/138759011&#34; target=&#34;_blank&#34;&gt;Kit and Gift Set Product Creation&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/138625376&#34; target=&#34;_blank&#34;&gt;Sub-Product Creation&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/149018493&#34; target=&#34;_blank&#34;&gt;Adding and Removing Products from Categories&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+    &lt;li&gt;Products By Category
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/149018493&#34; target=&#34;_blank&#34;&gt;Adding and Removing Products from Categories&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+    &lt;li&gt;Product Search&lt;/li&gt;
+    &lt;li&gt;Refined Search&lt;/li&gt;
+    &lt;li&gt;Inventory Control&lt;/li&gt;
+    &lt;li&gt;Subscription Products&lt;/li&gt;
+    &lt;li&gt;Vendors&lt;/li&gt;
+    &lt;li&gt;Recipes&lt;/li&gt;
+    &lt;li&gt;Product Q&amp;amp;A&lt;/li&gt;
+    &lt;li&gt;Product Reviews&lt;/li&gt;
+    &lt;li&gt;Custom Product Forms
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/140435232&#34; target=&#34;_blank&#34;&gt;Custom Product Form Creation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+    &lt;li&gt;Price Categories&lt;/li&gt;
+    &lt;li&gt;Product Discounts
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/145864727&#34; target=&#34;_blank&#34;&gt;Product Discount Creation and Edits&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+    &lt;li&gt;Product Import&lt;/li&gt;
+    &lt;li&gt;Product Export
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/145141827&#34; target=&#34;_blank&#34;&gt;Product Exports&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+    &lt;li&gt;Product Options&lt;/li&gt;
+    &lt;li&gt;Product Notification Options&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+    &lt;li&gt;Categories
+&lt;ul&gt;
+    &lt;li&gt;All Categories
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/151021798&#34; target=&#34;_blank&#34;&gt;Category Creation, Edit, and Delete&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/149018493&#34; target=&#34;_blank&#34;&gt;Adding and Removing Products from Categories&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+    &lt;li&gt;Category Filters&lt;/li&gt;
+    &lt;li&gt;Category Import&lt;/li&gt;
+    &lt;li&gt;Category Export&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+    &lt;li&gt;Design
+&lt;ul&gt;
+    &lt;li&gt;Generic Forms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+    &lt;li&gt;Site&lt;strong&gt; Settings&lt;/strong&gt;
+&lt;ul&gt;
+    &lt;li&gt;Display Options
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/144512481&#34; target=&#34;_blank&#34;&gt;Display Settings and Options&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+    &lt;li&gt;Site Search Options&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Marketing&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;Optimization&lt;/li&gt;
+    &lt;li&gt;Email Tools
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/145993237&#34; target=&#34;_blank&#34;&gt;Email Blast Creation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+    &lt;li&gt;Automatic Reminders&lt;/li&gt;
+    &lt;li&gt;Product Syndication&lt;/li&gt;
+    &lt;li&gt;Cart Abandonment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Analytics&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;Analytics&lt;/li&gt;
+    &lt;li&gt;Reporting Options
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://vimeo.com/140068216&#34; target=&#34;_blank&#34;&gt;Incentive Programs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
