@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tours on CommerceV3</title>
+    <link>https://www.commercev3.com/tour/</link>
+    <description>Recent content in Tours on CommerceV3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Feb 2016 16:11:58 +0530</lastBuildDate>
+    <atom:link href="https://www.commercev3.com/tour/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cloud Hosting</title>
+      <link>https://www.commercev3.com/tour/cloud-hosting/</link>
+      <pubDate>Sun, 14 Feb 2016 16:11:58 +0530</pubDate>
+      
+      <guid>https://www.commercev3.com/tour/cloud-hosting/</guid>
+      <description>
+
+&lt;h2 id=&#34;certified-secure&#34;&gt;Certified Secure&lt;/h2&gt;
+
+&lt;p&gt;PCI-DSS Compliant platform with Level 1 VISA Certification&lt;/p&gt;
+
+&lt;p&gt;The CV3 platform undergoes rigorous and continuous testing by security firms, and the entire platform is certified annually by third party auditors. So CV3 is not only compliant software, but certified software, and it’s certified at the highest level available.&lt;/p&gt;
+
+&lt;h2 id=&#34;fully-automatic&#34;&gt;Fully Automatic&lt;/h2&gt;
+
+&lt;p&gt;No maintenance, upgrades, or hardware headaches&lt;/p&gt;
+
+&lt;p&gt;Licensing software is often just the beginning of your investment, but at CV3 everything is included: software upgrades, bug fixes, firewalls, routers, redundant servers, redundant connections, geographically diverse fail-over, system administrators, pager duty… the list goes on an on. The short version: we take care of everything so you can focus on selling product.&lt;/p&gt;
+
+&lt;h2 id=&#34;flex-up-down&#34;&gt;Flex Up &amp;amp; Down&lt;/h2&gt;
+
+&lt;p&gt;Add hosting resources for busy times, thin down off-season&lt;/p&gt;
+
+&lt;p&gt;Internet traffic fluctuates, sometimes on a regular cycle and sometimes because of an external event like a Superbowl ad. At CV3 we have multiple layers of automatic service allocation going on at any given time. New servers spin up as load increases in the morning and then spin down in the middle of the night. New clusters appear as Cyber Monday approaches and stick around as long as they are needed during the holiday season. All this activity means your store always has plenty of bandwidth  for shoppers but you are paying for it when you don’t need it.&lt;/p&gt;
+
+&lt;h2 id=&#34;edge-speed-with-cdn&#34;&gt;Edge Speed with CDN&lt;/h2&gt;
+
+&lt;p&gt;Built-in content delivery network for faster page delivery&lt;/p&gt;
+
+&lt;p&gt;Speed is a priority at CV3, and milliseconds count. Content Delivery Networks (CDNs) are built directly into the way CV3 works, so your data is housed as close to the shopper as possible so your site pops into their browser when they visit. And our CDN usage is easy maintain over time, it works in the background so you don’t accidentally put a bunch of product images in the wrong place.&lt;/p&gt;
+
+&lt;h2 id=&#34;redundant-data-centers&#34;&gt;Redundant Data Centers&lt;/h2&gt;
+
+&lt;p&gt;Stores are deployed to virtual data centers for true cloud redundancy&lt;/p&gt;
+
+&lt;p&gt;CV3 offers multiple layers of redundancy. Clustered server instances mean your shoppers never see a slow down, even if traffic gets high or a couple of instances decide to crash. And if an entire data center goes down (we’ve seen it happen many times), your stores are replicated across multiple data centers in different geographic regions so you don’t have to worry.&lt;/p&gt;
+
+&lt;h2 id=&#34;top-tier-add-ons&#34;&gt;Top Tier Add-ons&lt;/h2&gt;
+
+&lt;p&gt;Globally distributed DNS, mail servers, blog hosting &amp;amp; more&lt;/p&gt;
+
+&lt;p&gt;A successful storefront needs a whole network of supporting services, and your platform is only as strong as its weakest link. No one will get to your super fancy redundant servers if your DNS provider goes down. At CV3 we partner with top-tier global firms like Amazon, NuStar, Rackspace and Sendgrid to make sure all your supporting services are just as stable as your web store.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Features</title>
+      <link>https://www.commercev3.com/tour/features/</link>
+      <pubDate>Sun, 14 Feb 2016 16:11:58 +0530</pubDate>
+      
+      <guid>https://www.commercev3.com/tour/features/</guid>
+      <description>
+
+&lt;h2 id=&#34;platform-specs-certifications&#34;&gt;Platform Specs &amp;amp; Certifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;fast &amp;amp; flexible cloud-based application&lt;/li&gt;
+&lt;li&gt;multi-server, multi-datacenter&lt;/li&gt;
+&lt;li&gt;dedicated SQL-based cloud storage&lt;/li&gt;
+&lt;li&gt;edge CDN for binary assets&lt;/li&gt;
+&lt;li&gt;global, multi-homed DNS&lt;/li&gt;
+&lt;li&gt;on-demand resource scaling&lt;/li&gt;
+&lt;li&gt;PCI-DSS Level 1 VISA Certification&lt;/li&gt;
+&lt;li&gt;full backup rotation &amp;amp; code escrow&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;customization-branding&#34;&gt;Customization &amp;amp; Branding&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;100% editable site, including checkout&lt;/li&gt;
+&lt;li&gt;raw HTML &amp;amp; CSS &amp;amp; javascript access&lt;/li&gt;
+&lt;li&gt;open source theming engine (Smarty)&lt;/li&gt;
+&lt;li&gt;HTML5 &amp;amp; CSS3 enabled by default&lt;/li&gt;
+&lt;li&gt;Responsive mobile design&lt;/li&gt;
+&lt;li&gt;HTML &amp;amp; JS framework friendly&lt;/li&gt;
+&lt;li&gt;Legacy browser support via Modernizr&lt;/li&gt;
+&lt;li&gt;PHP-style code support&lt;/li&gt;
+&lt;li&gt;re-usable “building blocks” of code&lt;/li&gt;
+&lt;li&gt;staging area for reviewing changes&lt;/li&gt;
+&lt;li&gt;internal file and image libraries&lt;/li&gt;
+&lt;li&gt;A/B testing, including Google W.O.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;web-shopping&#34;&gt;Web Shopping&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;flexible product search&lt;/li&gt;
+&lt;li&gt;search filtering and results ordering&lt;/li&gt;
+&lt;li&gt;optional support for SLI Advance Search&lt;/li&gt;
+&lt;li&gt;nested category browsing&lt;/li&gt;
+&lt;li&gt;multiple-product images &amp;amp; videos&lt;/li&gt;
+&lt;li&gt;support for image zoom &amp;amp; effects&lt;/li&gt;
+&lt;li&gt;product ratings &amp;amp; reviews&lt;/li&gt;
+&lt;li&gt;optional inventory control&lt;/li&gt;
+&lt;li&gt;related products &amp;amp; required products&lt;/li&gt;
+&lt;li&gt;parent / child products&lt;/li&gt;
+&lt;li&gt;product attributes &amp;amp; sets&lt;/li&gt;
+&lt;li&gt;volume pricing discounts&lt;/li&gt;
+&lt;li&gt;minimum quantity limits&lt;/li&gt;
+&lt;li&gt;customizable products&lt;/li&gt;
+&lt;li&gt;product assemblies&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;mobile-shopping&#34;&gt;Mobile Shopping&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Responsive, mobile-first design&lt;/li&gt;
+&lt;li&gt;use HTML5, JQuery Mobile and more…&lt;/li&gt;
+&lt;li&gt;target multiple mobile platforms&lt;/li&gt;
+&lt;li&gt;shopper toggle between mobile &amp;amp; web&lt;/li&gt;
+&lt;li&gt;configurable default for tablets&lt;/li&gt;
+&lt;li&gt;ajax-based content loading&lt;/li&gt;
+&lt;li&gt;full shopping &amp;amp; expedited checkout&lt;/li&gt;
+&lt;li&gt;theme updates retain customizations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;social-shopping&#34;&gt;Social Shopping&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Facebook like buttons&lt;/li&gt;
+&lt;li&gt;product ratings &amp;amp; reviews&lt;/li&gt;
+&lt;li&gt;share buttons, e-mail products to friends&lt;/li&gt;
+&lt;li&gt;Embedded shopping in Facebook&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;international-features&#34;&gt;International Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;language-specific theme support&lt;/li&gt;
+&lt;li&gt;set language-specific currency&lt;/li&gt;
+&lt;li&gt;international shipping&lt;/li&gt;
+&lt;li&gt;international payments&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;traffic-building-seo&#34;&gt;Traffic-building / SEO&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;customizable, friendly URLs&lt;/li&gt;
+&lt;li&gt;canonical URLs&lt;/li&gt;
+&lt;li&gt;customizable meta-data per page&lt;/li&gt;
+&lt;li&gt;additional user-defined page data&lt;/li&gt;
+&lt;li&gt;redirect mapping&lt;/li&gt;
+&lt;li&gt;landing pages with add-to-cart&lt;/li&gt;
+&lt;li&gt;Google Site Map support&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;membership&#34;&gt;Membership&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;view previous orders / track orders&lt;/li&gt;
+&lt;li&gt;quick-reorder / address book&lt;/li&gt;
+&lt;li&gt;view gift certificate balance&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;marketing-promotions&#34;&gt;Marketing &amp;amp; Promotions&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;catalog request &amp;amp; e-mail sign-up&lt;/li&gt;
+&lt;li&gt;referrer tracking &amp;amp; media code support&lt;/li&gt;
+&lt;li&gt;add-to-cart dynamic landing pages&lt;/li&gt;
+&lt;li&gt;segmented customer groups&lt;/li&gt;
+&lt;li&gt;behavioral group triggers&lt;/li&gt;
+&lt;li&gt;individual &amp;amp; group promo codes&lt;/li&gt;
+&lt;li&gt;single-use promo codes&lt;/li&gt;
+&lt;li&gt;fixed &amp;amp; percentage promos&lt;/li&gt;
+&lt;li&gt;category-based promos&lt;/li&gt;
+&lt;li&gt;free shipping promos&lt;/li&gt;
+&lt;li&gt;volume-based discounts&lt;/li&gt;
+&lt;li&gt;customer-based discounts&lt;/li&gt;
+&lt;li&gt;“stackable” promos &amp;amp; exclusions&lt;/li&gt;
+&lt;li&gt;link-based auto-adds&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;checkout&#34;&gt;Checkout&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;express &amp;amp; full checkouts&lt;/li&gt;
+&lt;li&gt;member &amp;amp; non-member ordering&lt;/li&gt;
+&lt;li&gt;fully branded checkout&lt;/li&gt;
+&lt;li&gt;custom SSL certificate&lt;/li&gt;
+&lt;li&gt;pre-checkout recipient mapping&lt;/li&gt;
+&lt;li&gt;pre-checkout shipping estimator&lt;/li&gt;
+&lt;li&gt;Amazon / Google / Paypal checkout&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;shipping-tax&#34;&gt;Shipping &amp;amp; Tax&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;multiple-ship to support&lt;/li&gt;
+&lt;li&gt;shipping tables, groups and shippers&lt;/li&gt;
+&lt;li&gt;product-specific shipping rates&lt;/li&gt;
+&lt;li&gt;perishable shipping&lt;/li&gt;
+&lt;li&gt;Fed-Ex / UPS / USPO integration&lt;/li&gt;
+&lt;li&gt;custom shipping API&lt;/li&gt;
+&lt;li&gt;custom tax tables&lt;/li&gt;
+&lt;li&gt;multi-state tax exemptions&lt;/li&gt;
+&lt;li&gt;product-specific tax exemptions&lt;/li&gt;
+&lt;li&gt;Avalara / Exactor / CCH tax integration&lt;/li&gt;
+&lt;li&gt;custom tax API&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;payments&#34;&gt;Payments&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;purchase orders &amp;amp; invoice me&lt;/li&gt;
+&lt;li&gt;gift certificate &amp;amp; card on file&lt;/li&gt;
+&lt;li&gt;electronic check / eCheck.net&lt;/li&gt;
+&lt;li&gt;private label credit cards&lt;/li&gt;
+&lt;li&gt;Authorize.net / Chase Paymentech&lt;/li&gt;
+&lt;li&gt;Paypal’s Payflow Pro &amp;amp; Payflow Link&lt;/li&gt;
+&lt;li&gt;Paypal’s Web Site Payments&lt;/li&gt;
+&lt;li&gt;TransFirst ePay / USA ePay&lt;/li&gt;
+&lt;li&gt;Sterling / Litle &amp;amp; Co / Virtual Merchant&lt;/li&gt;
+&lt;li&gt;Mercury Payment Systems&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;order-management&#34;&gt;Order Management&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;order batch processing &amp;amp; PDF copies&lt;/li&gt;
+&lt;li&gt;Mail Order Manager integration&lt;/li&gt;
+&lt;li&gt;Quickbooks Enterprise integration&lt;/li&gt;
+&lt;li&gt;StoneEdge Order Manager integration&lt;/li&gt;
+&lt;li&gt;Natural Order integration&lt;/li&gt;
+&lt;li&gt;NewHaven CMS &amp;amp; Wizard integration&lt;/li&gt;
+&lt;li&gt;OrderMotion integration&lt;/li&gt;
+&lt;li&gt;CoLinear Response integration&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;reporting-analytics&#34;&gt;Reporting &amp;amp; Analytics&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Google Analytics integration&lt;/li&gt;
+&lt;li&gt;full traffic &amp;amp; revenue reporting&lt;/li&gt;
+&lt;li&gt;virtual square-inch analysis&lt;/li&gt;
+&lt;li&gt;competitor tracking&lt;/li&gt;
+&lt;li&gt;percentile key metrics ratings&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;api-external-access&#34;&gt;API / External Access&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;secure SOAP-based XML API&lt;/li&gt;
+&lt;li&gt;two-way information exchange&lt;/li&gt;
+&lt;li&gt;update product details&lt;/li&gt;
+&lt;li&gt;update inventory counts&lt;/li&gt;
+&lt;li&gt;batch process orders&lt;/li&gt;
+&lt;li&gt;sync customer data&lt;/li&gt;
+&lt;li&gt;push shipping status/tracking number&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Integrations</title>
+      <link>https://www.commercev3.com/tour/integrations/</link>
+      <pubDate>Sun, 14 Feb 2016 16:11:58 +0530</pubDate>
+      
+      <guid>https://www.commercev3.com/tour/integrations/</guid>
+      <description>
+
+&lt;h2 id=&#34;order-inventory&#34;&gt;Order &amp;amp; Inventory&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Colinear’s Response&lt;/li&gt;
+&lt;li&gt;DEACOM&lt;/li&gt;
+&lt;li&gt;Freestyle Solutions’ Multichannel Order Manager – M.O.M.&lt;/li&gt;
+&lt;li&gt;MACH Software&lt;/li&gt;
+&lt;li&gt;Monsoon Stone Edge’s Order Manager&lt;/li&gt;
+&lt;li&gt;Natural Solution’s Natural Order&lt;/li&gt;
+&lt;li&gt;Neesvig’s Fulfillment&lt;/li&gt;
+&lt;li&gt;NewHaven Software&lt;/li&gt;
+&lt;li&gt;OrderMotion&lt;/li&gt;
+&lt;li&gt;QuickBooks&lt;/li&gt;
+&lt;li&gt;SAP Business One&lt;em&gt;COMING SOON&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;SYSPRO&lt;/li&gt;
+&lt;li&gt;TCRDS Incorporated&lt;/li&gt;
+&lt;li&gt;Excel &amp;amp; custom integrations via the CV3 Open API&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;advanced-search&#34;&gt;Advanced Search&lt;/h2&gt;
+
+&lt;p&gt;Compliment built-in search with advanced 3rd-party tools&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SearchSpring&lt;/li&gt;
+&lt;li&gt;SLI Systems&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;tax-solutions&#34;&gt;Tax Solutions&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Avalara&lt;/li&gt;
+&lt;li&gt;CCH&lt;/li&gt;
+&lt;li&gt;Exactor&lt;/li&gt;
+&lt;li&gt;custom integration via any URL-based post/response script&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;shipping&#34;&gt;Shipping&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;UPS&lt;/li&gt;
+&lt;li&gt;Federal Express (FedEx)&lt;/li&gt;
+&lt;li&gt;United States Postal Service (USPS)&lt;/li&gt;
+&lt;li&gt;ABF Freight&lt;/li&gt;
+&lt;li&gt;custom integration via any URL-based post/response script&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;payment-gateways&#34;&gt;Payment Gateways&lt;/h2&gt;
+
+&lt;p&gt;Choose your payment processor—we connect to them all&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Authorize.net / Authorize.net CIM&lt;/li&gt;
+&lt;li&gt;Chase PaymenTech – Tampa&lt;/li&gt;
+&lt;li&gt;Cybersource&lt;/li&gt;
+&lt;li&gt;Elavon VirtualMerchant&lt;/li&gt;
+&lt;li&gt;eMerchant&lt;/li&gt;
+&lt;li&gt;Litle &amp;amp; Co&lt;/li&gt;
+&lt;li&gt;Merchant e-Solutions&lt;/li&gt;
+&lt;li&gt;Mercury Payment Systems&lt;/li&gt;
+&lt;li&gt;Paypal Payflow Pro, Payflow Link, Website Payments Pro&lt;/li&gt;
+&lt;li&gt;Sterling Payment Technologies&lt;/li&gt;
+&lt;li&gt;TransFirst ePay&lt;/li&gt;
+&lt;li&gt;USAePay&lt;/li&gt;
+&lt;li&gt;Verifone Payware&lt;/li&gt;
+&lt;li&gt;Verisign&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;email-marketing&#34;&gt;Email Marketing&lt;/h2&gt;
+
+&lt;p&gt;Taking email marketing to the next level&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bronto&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Marketing Services</title>
+      <link>https://www.commercev3.com/tour/marketing-services/</link>
+      <pubDate>Sun, 14 Feb 2016 16:11:58 +0530</pubDate>
+      
+      <guid>https://www.commercev3.com/tour/marketing-services/</guid>
+      <description>
+
+&lt;p&gt;Let us utilize our extensive knowledge of the digital universe and make us a part of your planning, research, development, marketing, social interaction and analysis of those tools. Your continued success is important to both of us, so who better to implement your digital marketing than a company that is vested in your success?&lt;/p&gt;
+
+&lt;h2 id=&#34;what-we-offer&#34;&gt;What We Offer&lt;/h2&gt;
+
+&lt;p&gt;Initial evaluation of your online marketing goals resulting in a custom crafted plan of initial and long term recommendations. Goal: Increase sales by bringing additional qualiﬁed trafﬁc to your site, and additionally driving a higher conversion rate.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Paid Search (PPC)&lt;/em&gt; – We’ll help you hone and optimize your AdWords advertising to reach your ROI and budget goals. CV3 deliverables may include: key term research, installation of tracking codes, development of multiple campaigns and ad groups.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Remarketing Banner Ads Set up and Installation&lt;/em&gt; – this is an extension of your PPC campaign and shows visitors to your site (who then leave without purchasing) ads when they visit other sites.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Google Shopping Submission&lt;/em&gt; – We strongly recommend Google Shopping ads. These ads generate sales and provide good exposure through the prominence given to the shopping results on Google search results pages. CV3 will create a product feed, add Google Analytics tracking codes, and submit it to Google Shopping.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Email campaign suggestions and expert advice&lt;/em&gt; – We’ll make recommendations on how to enhance the design and content of your emails to increase your sales. And then we’ll help you execute those ideas.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Email Template Design/Code&lt;/em&gt; – It takes just a split second for an email recipient to choose whether to engage with an incoming email. CV3 has done extensive research in effective email design and successful deliverability. Our designers use the latest email code standards to ensure the highest rates of deliverability, as well as proven design features to elicit high click through rates.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Checkout Optimization&lt;/em&gt; – CV3 marketing experts will review and optimize the shopping cart and checkout process with an eye towards removing obstacles to conversion, deleting unneeded form ﬁelds or checkout steps, and adding images or messages that emphasize security and guarantee. We may also adjust button hierarchy and design on each page, create a custom shopping cart header, and remove unnecessary menu links which keep customers from completing the checkout process.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Search Engine Optimization&lt;/em&gt; – We’ll work to ensure that your website is optimized.  You can also rely on us to provide ongoing guidance on good SEO practices as part of your monthly services. Search engine optimization will include: keyword research, development of title tags, meta descriptions for your home page and category pages, setup of a Google Webmaster Tools account, and submission of your new sitemap to Google and Bing.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Google Analytics Installation and enhancement&lt;/em&gt; – Google Analytics is our analytics platform of choice, and we conﬁgure it for your website. We’ll double check the installed analytics code on the site, and setup checkout goals and funnels and analyze the results as they come in.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Project Management&lt;/em&gt; – We will oversee and manage these projects and work with your team to coordinate email dates, PPC scope, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Social Media guidance&lt;/em&gt; – our team can review your current social media efforts and provide suggestions. Often we can give you recommendations and then provide training to your own staff so they can do the posts.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Mobile&lt;/em&gt; – We can also help you evaluate your mobile CSS and make recommendations to increase conversion.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Store Design</title>
+      <link>https://www.commercev3.com/tour/store-design/</link>
+      <pubDate>Sun, 14 Feb 2016 16:11:58 +0530</pubDate>
+      
+      <guid>https://www.commercev3.com/tour/store-design/</guid>
+      <description>
+
+&lt;h2 id=&#34;design-launch-options&#34;&gt;Design &amp;amp; Launch Options&lt;/h2&gt;
+
+&lt;h3 id=&#34;cv3-self-build&#34;&gt;CV3 Self Build&lt;/h3&gt;
+
+&lt;p&gt;The Self Build Launch option puts the full control of the site build into your hands.  We create a new blank store for you then set you free to develop content, templates and everthing else to launch your store.  Once you’ve built the store, let us know; we will evaluate your store for issues then launch the store at your desired time.   This option is ideal for the savvy client who has experience with the CV3 platform.&lt;/p&gt;
+
+&lt;h3 id=&#34;cv3-express&#34;&gt;CV3 Express&lt;/h3&gt;
+
+&lt;p&gt;CV3 Express is a a budget friendly way to get a storefront up and running quickly and relatively easily on the CV3 platform.  With CV3 Express, we start off with our standard template layouts and customize the colors, images and over all functionality to suit your needs and match your brand.  This is a time save because you do not have to go through the design phase with our Design team.  Our standard templates are packed full of features that most online retailers are looking for today and utilize the latest trends in e-commerce web design that your customers are accustomed to.  The standard templates are available in both Adaptive or Responsive versions so your site would be mobile friendly!&lt;/p&gt;
+
+&lt;h3 id=&#34;cv3-full-service&#34;&gt;CV3 Full Service&lt;/h3&gt;
+
+&lt;p&gt;The full service option is similar to Cv3 Express except with this option we will take your through the design process with our Design team to develop a unique one-off site design to showcase your brand and products in anyway you can imagine.  This is suitable for anyone looking for a custom design or has very specific requirements that are not available in our standard templates.&lt;/p&gt;
+
+&lt;h3 id=&#34;responsive-adaptive-designs&#34;&gt;Responsive &amp;amp; Adaptive Designs&lt;/h3&gt;
+
+&lt;p&gt;CV3’s standard template are available in both Responsive and Adaptive version which give your site a desirable user experience on tables and cell phones and other devices.  If you’re going with a Full Service package we can develop the templates to be your choice of responsive or adaptive.&lt;/p&gt;
+
+&lt;p&gt;Not sure of the difference?  Here is an article that should help:  &lt;a href=&#34;http://www.techrepublic.com/blog/web-designer/what-is-the-difference-between-responsive-vs-adaptive-web-design/&#34;&gt;What is the difference between responsive vs. adaptive web design?&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;technology&#34;&gt;Technology&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Smarty Tags&lt;/li&gt;
+&lt;li&gt;CSS &amp;amp; HTML5&lt;/li&gt;
+&lt;li&gt;Easy Maintenance&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;design-examples&#34;&gt;Design Examples&lt;/h3&gt;
+
+&lt;p&gt;Take a look at some examples of our work below.  Who doesn’t love to show off?
+&lt;img src=&#34;https://www.commercev3.com/contentimages/RW-Hansel.jpg&#34; alt=&#34;Hansel&#34; title=&#34;Hansel&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Platform</title>
+      <link>https://www.commercev3.com/tour/the-platform/</link>
+      <pubDate>Sun, 14 Feb 2016 16:11:58 +0530</pubDate>
+      
+      <guid>https://www.commercev3.com/tour/the-platform/</guid>
+      <description>
+
+&lt;h2 id=&#34;full-service-ecommerce&#34;&gt;Full Service eCommerce&lt;/h2&gt;
+
+&lt;p&gt;At CV3 we build the platform, launch the stores, host the stores and grow the stores. We continually hone everything using this powerful launch-to-completed-order feedback loop.&lt;/p&gt;
+
+&lt;h2 id=&#34;design-your-storefront&#34;&gt;Design Your Storefront&lt;/h2&gt;
+
+&lt;p&gt;CV3 features an open-source template engine which gives you total control over each store. Be responsive, adaptive or mobile ﬁrst. Use Bootstrap, Pure or Foundation—it’s your choice.&lt;/p&gt;
+
+&lt;h2 id=&#34;optimize-conversion&#34;&gt;Optimize Conversion&lt;/h2&gt;
+
+&lt;p&gt;Growth is a requirement at CV3. Use advanced tools to increase trafﬁc and drive larger and more frequent orders. We top it off with expert marketers who roll up their sleeves &amp;amp; get to work.&lt;/p&gt;
+
+&lt;h2 id=&#34;cloud-hosting&#34;&gt;Cloud Hosting&lt;/h2&gt;
+
+&lt;p&gt;We utilize powerful, secure sites deployed to virtual data centers for true cloud redundancy.  A built-in content delivery network for faster page delivery.&lt;/p&gt;
+
+&lt;h2 id=&#34;plays-well-with-others&#34;&gt;Plays Well with Others&lt;/h2&gt;
+
+&lt;p&gt;We’ve been doing multi-channel retail since before it was even called multi-channel retail. We know you need best of breed tools, and they all have to work well together to streamline your operations.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

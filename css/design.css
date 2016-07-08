@@ -1,0 +1,271 @@
+html,
+body {
+  height: 100%;
+  }
+
+body {
+  padding-top: 50px;
+  font-size: 12pt;
+  line-height: 22pt;
+  }
+
+hr {
+    max-width: 80px;
+    border-color: #fff;
+    border-width: 3px;
+}
+
+footer {
+  color: #ccc;
+  background-color: #000;
+  width: 100%;
+  min-height: auto;
+  padding: 24px 48px;
+}
+
+footer .container {
+  position: relative;
+  width: 100%;
+  padding: 100px 15px;
+  text-align: center;
+}
+
+.navbar-inverse {
+  background-color: #333333;
+}
+
+.navbar-left img {
+  background-color:#eaf2f8;
+  position: fixed;
+  height: 90px;
+  margin: 5px auto 0 -10px;
+  padding: 12px;
+  border: solid 1px #154360;
+  border-radius: 50%;
+}
+
+#home header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(0deg,rgba(20,104,140,0.5),rgba(20,104,140,0.8)), url(../img/header.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#home header .hero-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+}
+
+#home header .hero-content .hero-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#home header .hero-content .hero-content-inner hr {
+    margin: 30px auto;
+}
+
+#home header .hero-content .hero-content-inner p {
+    margin-bottom: 50px;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 300;
+    color: rgba(255,255,255,.7);
+}
+
+/* subpage headers */
+
+#page header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    color: #fff;
+    background-color: #14688c;
+}
+
+#page header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 45px 15px;
+}
+
+#page header .header-content .header-content-inner h1 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#page header .header-content .header-content-inner hr {
+    margin: 30px auto;
+}
+
+#page header .header-content .header-content-inner p {
+    margin-bottom: 50px;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 300;
+    color: rgba(255,255,255,.7);
+}
+
+
+/* primary button paste */
+.btn-default {
+    border-color: #fff;
+    color: #222;
+    background-color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    border-color: #ededed;
+    color: #222;
+    background-color: #f2f2f2;
+}
+
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    background-image: none;
+}
+
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+    border-color: #fff;
+    background-color: #fff;
+}
+
+.btn-default .badge {
+    color: #fff;
+    background-color: #222;
+}
+
+.btn-primary {
+    border-color: #1e4f90;
+    color: #fff;
+    background-color: #1e4f90;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    border-color: #ed431f;
+    color: #fff;
+    background-color: #ee4b28;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: #1e4f90;
+    background-color: #1e4f90;
+}
+
+.btn-primary .badge {
+    color: #1e4f90;
+    background-color: #fff;
+}
+
+.btn {
+    margin-bottom:12px;
+    border: 0;
+    border-radius: 300px;
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+}
+
+.btn-xl {
+    padding: 15px 30px;
+}
+
+
+
+
+/* article details */
+article img {
+  margin: 12px auto;
+  border: 1px solid #000;
+}
+
+
+
+
+/* apply if tablet / laptop */
+@media (min-width: 768px) {
+
+  #home header .hero-content .hero-content-inner h1 {
+      font-size: 3em;
+  }
+
+  section#main .container {
+    padding: 25px 100px 100px 100px;
+  }
+
+}
+
+/* apply if desktop */
+@media (min-width: 992px) {
+
+}
